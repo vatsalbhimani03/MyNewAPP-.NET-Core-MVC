@@ -8,7 +8,7 @@ namespace MyNewApp.Controllers
         //http://localhost:5171/items/overview
         public IActionResult Overview()
         {
-            var item = new Item() { Name = "Printer", Description = "It's a great printer"};
+            var item = new Items() { Name = "Printer", Description = "It's a great printer"};
             return View(item);
         }
 

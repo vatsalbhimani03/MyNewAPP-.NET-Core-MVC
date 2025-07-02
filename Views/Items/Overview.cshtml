@@ -21,23 +21,24 @@
 @* </ul> *@
 
 
-@* @{ *@
-@* 	var isLoggedIn = true; *@
-@* } *@
-@* @if (isLoggedIn) *@
-@* { *@
-@* 	<p>Welcome back!</p> *@
-@* } *@
-@* else *@
-@* { *@
-@* 	<p>Please Log In</p> *@
-@* } *@
+
+ @{ 
+ 	var isLoggedIn = true; 
+ } 
+ @if (isLoggedIn) 
+ { 
+ 	<p>Welcome back!</p> 
+ } 
+ else 
+ { 
+ 	<p>Please Log In</p> 
+ } 
 
 
-@* @model MyNewApp.Models.MyViewModel *@
-@* <form asp-action="Submit"> *@
-@* 	<div> *@
-@* 		<input asp-for="Name" /> *@
-@* 	</div> *@
-@* 	<button type="submit">Submit</button> *@
-@* </form> *@
+ @* @model MyNewApp.Models.MyViewModel  *@
+ @* <form asp-action="Submit">  *@
+ @* 	<div>  *@
+ @* 		<input asp-for="Name" />  *@
+ @* 	</div>  *@
+ @* 	<button type="submit">Submit</button>  *@
+ @* </form>  *@
